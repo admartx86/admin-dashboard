@@ -1,0 +1,14 @@
+#dashboard {
+    gap: 50px;
+}
+
+#dashboard img {
+    width: 50px;
+    height: auto;
+}
+
+#primary-links,
+#secondary-links {
+    display: flex;
+    flex-direction: column;
+}
