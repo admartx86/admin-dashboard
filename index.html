@@ -1,37 +1,204 @@
-<!Doctype html>
+<!Doctype HTML>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title></title>
-        <link rel="stylesheet" href="style.css">
-    </head> 
-    <body>
-        <div id="dashboard">
-            <div class="dashboard-header">
-                <div><img src="./images/dashboard.png"></img><h3>Dashboard</h3></div>
-            </div>
-            <div id="primary-links">
-                <div><img src="./images/home.png"></img><link href="">Home</link></div>
-                <div><img src="./images/user.png"></img><link href="">Profile</link></div>
-                <div><img src="./images/envelope.png"></img><link href="">Messages</link></div>
-                <div><img src="./images/time-past.png"></img><link href="">History</link></div>
-                <div><img src="./images/list-check.png"></img><link href="">Tasks</link></div>
-                <div><img src="./images/users-alt.png"></img><link href="">Communities</link></div>
-            </div>
-            <div id="secondary-links">    
-                <div><img src="./images/settings.png"></img><link href="">Settings</link></div>
-                <div><img src="./images/hand-holding-medical.png"></img><link href="">Support</link></div>
-                <div><img src="./images/lock.png"></img><link href="">Privacy</link></div>
-            </div>
-        </div>
 
-        <div id="content">
-            <div id="header"></div>
-            <div id="main-content">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+    <div class="flex-wrapper">
+        <nav class="navbar">
+            <div>
+                <img src="./images/dashboard.png"></img>
+                <h1>Dashboard</h1>
             </div>
+            <ul class="main-links">
+                <li><a href="#"><img src="./images/home.png"></img>Home</a></li>
+                <li><a href="#"><img src="./images/user.png"></img>Profile</a></li>
+                <li><a href="#"><img src="./images/envelope.png"></img>Messages</a></li>
+                <li><a href="#"><img src="./images/time-past.png"></img>History</a></li>
+                <li><a href="#"><img src="./images/list-check.png"></img>Tasks</a></li>
+                <li><a href="#"><img src="./images/users-alt.png"></img>Communities</a></li>
+            </ul>
+            <ul class="additional-links">
+                <li><a href="#"><img src="./images/settings.png"></img>Settings</a></li>
+                <li><a href="#"><img src="./images/hand-holding-medical.png"></img>Support</a></li>
+                <li><a href="#"><img src="./images/lock.png"></img>Privacy</a></li>
+            </ul>
+        </nav>
+        <div class="page-contents">
+            <section class="user-controls">
+                <div class="search-bar"></div>
+                <div class="notifications"></div>
+                <div class="user-menu"></div>
+                <div class="welcome-user"></div>
+                <div class="new-upload-share-buttons"></div>
+            </section>
+            <section class="your-projects">
+                <h1>Your Projects</h1>
+                <div>
+                    <h2>
+                        Super Cool Project
+                    </h2>
+                    <p>
+                        Sed tempus ut lacus ut scelerisque.
+                        Suspendisse sollicitudin nibh erat, id
+                        facilisis felis accumsan nec.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div>
+                    <h2>
+                        Less Cool Project
+                    </h2>
+                    <p>
+                        Nullamm condimentum ipsum ut lectus vehicula
+                        consectetur. Quisque sed dolor tincidunt,
+                        consectetur sapien et, facilisis dolor. Duis sem
+                        purus, dignissim ut sapien in, varius
+                        pellentesque lacus.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div>
+                    <h2>
+                        Impossible App
+                    </h2>
+                    <p>
+                        In hac habitasse platea dictumst. Vivamus
+                        dictum rutrum arcu, a placerat velit sagittis
+                        id.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div>
+                    <h2>
+                        Easy Peasy App
+                    </h2>
+                    <p>
+                        Etiam cursus eros ac efficitur fringilla.
+                        Vestibulum dignissim urna eget accumsan
+                        aliquam. Curabitur dignissim nisi in tortor
+                        commodo, ac bibendum magna tincidunt.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div>
+                    <h2>
+                        Ad Blocker
+                    </h2>
+                    <p>
+                        Quisque eget rutrum nisl. Nam augue
+                        justo, cursus vitae metus vel, pharetra
+                        hendrerit felis. Aliquam sed malesuada
+                        eros.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div>
+                    <h2>
+                        Money Maker
+                    </h2>
+                    <p>
+                        Praesent convallis, libero quis congue
+                        elementum, nunc ante faucibus sapien, ac
+                        scelerisque tortor purus sit amet ex.
+                        Pellentesque mollis nec sem vel aliquam.
+                    </p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+            </section>
+            <section class="announcements">
+                <h1>Announcements</h1>
+                <div>
+                    <div>
+                        <h2>
+                            Site Maintenance
+                        </h2>
+                        <p>
+                            Vestibulum condimentum tellus lacus,
+                            in accumsan elit maxiums ac. Donec
+                            hendrerit sodales congue...
+                        </p>
+                    </div>
+                    <div>
+                        <h2>
+                            Community Share Day
+                        </h2>
+                        <p>
+                            Nam vel lectus tincidunt, rutrum nulla
+                            eu, ornare libero. Aliquam dictum
+                            accumsan porttitor...
+                        </p>
+                    </div>
+                    <div>
+                        <h2>
+                            Updated Privacy Policy
+                        </h2>
+                        <p>
+                            Phasellus efficitur nisi eget elit
+                            consectetur, eget condimentum ante
+                            auctor. Cras fringilla sagittis sem in
+                            mattis...
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="trending">
+                <h1>Trending</h1>
+                <div>
+                    <div>
+                        <img src="">
+                        @tegan
+                        World Peace Builder
+                    </div>
+                    <div>
+                        <img src="">
+                        @morgan
+                        Super Cool Project
+                    </div>
+                    <div>
+                        <img src="">
+                        @kendall
+                        Life Changing Project
+                    </div>
+                    <div>
+                        <img src="">
+                        @alex
+                        No Traffic Maker
+                    </div>
+                </div>
+            </section>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>

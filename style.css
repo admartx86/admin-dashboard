@@ -1,14 +1,30 @@
-#dashboard {
+* {
+    border: 1px solid red;
+}
+
+.flex-wrapper {
+    /*
+    .navbar
+    .page-contents
+    */
+    display: flex;
+}
+
+.navbar {
     gap: 50px;
 }
 
-#dashboard img {
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar img {
     width: 50px;
     height: auto;
 }
 
-#primary-links,
-#secondary-links {
+.main-links,
+.additional-links {
     display: flex;
     flex-direction: column;
 }
